@@ -4,6 +4,7 @@
     text-decoration: none;
     list-style-type: none;
     box-sizing: border-box;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
 
 body{
@@ -14,7 +15,7 @@ nav{
     background-color: #F8F9FA;
     height: 80px;
     width: 100%;
-    /* position: static; */
+    position: fixed;
 }
 
 label{
@@ -82,12 +83,162 @@ nav ul li a{
 
 }
 
+.container h2{
+    color: #007BFF;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.container button{
+    padding: 5px;
+    margin: 16px 0;
+}
+
+.container p{
+    padding: 5px;
+}
+
 .container img{
     overflow: hidden;
     width: 350px;
     height: 160px;
 }
 
-.secone{
-    
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+    height: 50%;
+}
+
+.first h2{
+    color: #6648B1;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.first button{
+    width: 25%;
+    background-color: #6648B1;
+    margin: 20px 40px 20px 0;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}
+
+.first p{
+    line-height: 30px;
+}
+
+.second img{
+    width: 92%;
+    height: 360px;
+    padding-left: 30px;
+}
+
+.pre-footer hr{
+    margin: 0px 3%;
+    border-bottom: 1.5px solid #B4B4B4;
+
+}
+
+.pre-footer h2{
+    color: #6648B1;
+    font-size: 40px;
+    /* text-align: center; */
+    padding-top: 20px;
+    margin-left: 25%;
+}
+
+.pre-footer p{
+    margin-left: 25%;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#container h3{
+    color: #6648B1;
+    font-size: 30px;
+}
+
+.message hr{
+    margin: 10px 0;
+    border-bottom: 1px solid #6648B1;
+    width: 60%;
+    margin-left: 35px;
+}
+
+.name-place{
+    width: 40%;
+    padding: 5px;
+}
+.mssg-place{
+    width: 81%;
+    height: 150px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.reach hr{
+    margin: 10px 0;
+    border-bottom: 1px solid #6648B1;
+    width: 60%;
+    margin-left: 35px;
+}
+
+.reach p{
+    margin: 0;
+}
+
+.reach strong{
+    color: #6648B1;
+}
+
+.numb{
+    color: #4289FF;
+}
+
+.message button{
+    width: 25%;
+    background-color: #6648B1;
+    margin: 20px 40px 20px 0;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #D3D3D3;
+    padding: 30px;
+}
+
+.footer h5{
+    color: #664FB2;
+}
+
+.footer p{
+    font-size: 14px;
+    color: #6D7CFF;
+}
+
+.last-footer{
+    background-color:  #D3D3D3;
+    height: 20px;
+}
+
+.last-footer hr{
+    border-bottom: 1px solid #6648B1;
+    margin:0px 200px;
+}
+
+.last-footer p{
+    background-color: #D3D3D3;
+    color: #6648B1;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
 }
